@@ -1,0 +1,46 @@
+.menu-button {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background: blue;
+    cursor: pointer;
+}
+.menu-button span {
+    width: 40px;
+    height: 4px;
+    background: white;
+}
+.menu-toggle {
+    display: none;
+}
+.toggle {
+    display: none;
+    text-align: center;
+    background: blue;
+    border-radius: 7px;
+    padding: 20px;
+    width: 200px;
+    list-style: none;
+    color: beige;
+}
+.toggle li {
+    padding: 12px 0px;
+}
+.menu-toggle:checked + .toggle {
+    display: block;
+}
+/* .ex1 {
+    margin: auto;
+    background: gold;
+    width: 66%;
+  }
+  .ex2 {
+    margin: 30px auto 0 auto;
+    background: gold;
+    width: 66%;
+  } */
